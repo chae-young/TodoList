@@ -35,17 +35,18 @@ module.exports = {
                 }]
             },
             {
-                test: /\.less$/,
+                test: /\.css$/i,
                 use: [
-                   { loader: "style-loader" },
-                   { loader: "css-loader" },
-                   { loader: "less-loader", options: { javascriptEnabled: true } }
-                ]
-            }             
+                    {loader: "style-loader"},
+                    {loader: "css-loader"},
+                    {loader: "postcss-loader"} 
+                ],
+            }        
         ],
     },
     plugins:[
-        new webpack.LoaderOptionsPlugin({debug:true})
+        new webpack.LoaderOptionsPlugin({debug:true}),
+        require('autoprefixer')
     ],
     output:{
         path:path.join(__dirname,'dist'),

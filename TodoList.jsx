@@ -2,6 +2,7 @@ import React,{useCallback, useState} from 'react';
 import { List, Input, Button, Checkbox } from 'antd';
 import { CloseCircleOutlined } from '@ant-design/icons';
 import {ListBox} from './styles';
+import 'antd/dist/antd.css';
 
 const TodoList = ()=>{
     const [text,setText] = useState('');
