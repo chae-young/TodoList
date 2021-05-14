@@ -1,34 +1,31 @@
 # Todolist
-
+:link: https://chae-young.github.io/TodoList/
 <br>
 <br>
 
-## 프로젝트 목적 및 동기
+## :pencil2: 프로젝트 목적 및 동기
 
 리액트를 처음 배우고 나서 추가,삭제,반복문을 활용한 프로젝트를 만들고 싶었다. 기본적인 기능이라고 생각하여 위 기능들이 활용된 todolist를 만드는 것이었다.
 
 <br>
 <br>
 
-## how
 
-list를 배열로 만들어서 list가 추가되면 기존배열에서 추가되게끔 state를 변경해주고  
-삭제될시 클릭했을때 list의 index를 인자값으로 받아 filter 메소드를 사용하여 state를 다시 변경하였다
-그리고 이미 체크가 되있는 list의 배열을 만들어서 check가 되어있으면 1 , 되어있지않으면 0 으로 데이터를 정리하였다.
-그래서 새로 렌더링이 될때 list에 check가 된 list는 checked가 되어서 나오도록 하였다.    
-
-<br>
-<br>
-
-## 사용한 기술
+## :speech_balloon: 사용한 기술
+<img src="../TodoList/images/js.png" width="80px"/>
+<img src="../TodoList/images/node.png" width="100px"/>
+<img src="../TodoList/images/react.png" width="100px"/>
+<img src="../TodoList/images/webpack.png" width="110px"/>
+<img src="../TodoList/images/antd.jpg" width="80px"/>
+<img src="../TodoList/images/styled.png" width="80px"/>
 
 <br>
 <br>
 
-## 기능
+## :computer: 기능 및 동작 원리
 
 
 <br>
 <br>
 
-## 프로젝트 비하인드
+## :cookie: 프로젝트 비하인드
