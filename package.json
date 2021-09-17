@@ -6,7 +6,7 @@
     "homepage": "https://chae-young.github.io/TodoList",
     "scripts": {
         "dev": "webpack serve --env development",
-        "build": "webpack --mode production",
+        "build": "webpack",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d dist"
     },

@@ -3,6 +3,7 @@
 
 # React Todolist
 
+![TODOLIST](https://user-images.githubusercontent.com/28029685/133736839-7230ed25-d599-47d0-87f3-548894398f2e.png)
 <br>
 <br>
 
@@ -22,13 +23,20 @@ React,webpack,antd
 
 ## 💻 구현기능 및 동작 원리
 
-1. 리스트 추가 </br>
-   ADD 버튼 클릭,엔터키로 리스트를 추가하도록 하였습니다. </br>
-   리스트는 배열로 이루어져 있으며 리스트가 추가될때 배열에 값이 저장됩니다.
+1. 리스트 추가 </br></br>
+   ![TODOLIST_리스트](https://user-images.githubusercontent.com/28029685/133736842-b4da4bc6-d955-46b6-bb06-cd043e615f09.gif)
 
-2. 모든 리스트 삭제
-   clear 버튼을 클릭하면 모든 리스트가 삭제됩니다.</br>
-   state를 빈배열로 바꾸어 모든 리스트값이 삭제되도록 하였습니다.
+    ADD 버튼 클릭,엔터키로 리스트를 추가하도록 하였습니다. </br>
+    리스트는 배열로 이루어져 있으며 리스트가 추가될때 배열에 값이 저장됩니다.
+
+<br>
+<br>
+
+2. 모든 리스트 삭제</br></br>
+   ![TODOLIST_모두삭제](https://user-images.githubusercontent.com/28029685/133736847-79ac96cf-9128-4d87-ab3d-bcbea6a59e2e.gif)
+
+    clear 버튼을 클릭하면 모든 리스트가 삭제됩니다.</br>
+    state를 빈배열로 바꾸어 모든 리스트값이 삭제되도록 하였습니다.
 
 <br>
 <br>
