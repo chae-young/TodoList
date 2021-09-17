@@ -14,7 +14,7 @@ const TodoList = () => {
     }, []);
     const onSubmit = useCallback(() => {
         if (text !== "") {
-            setCheckList([text, ...checklist, text]);
+            setCheckList([text, ...checklist]);
             setCompletedCheck([...completedCheck, 0]);
             setText("");
         }
