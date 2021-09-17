@@ -5,7 +5,6 @@ import { ListBox } from "./styles";
 import "antd/dist/antd.css";
 
 const TodoList = () => {
-    const =dddd
     const [text, setText] = useState("");
     const [checklist, setCheckList] = useState([]);
     const [completedCheck, setCompletedCheck] = useState([]);
